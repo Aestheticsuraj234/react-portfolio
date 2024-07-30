@@ -1,5 +1,6 @@
 import { Button } from "../ui/button"
 import { Typewriter } from 'react-simple-typewriter'
+
 export const HeroSection = () => {
     return (
         <main className="flex-1">
@@ -12,15 +13,15 @@ export const HeroSection = () => {
                         <div className="flex flex-col justify-center space-y-4">
                             <div className="space-y-2">
                                 <h1 className="text-[#ff3e00] text-5xl truncate font-bold tracking-tigher py-2">
-                                <Typewriter
-        words={['Hey👋 , I am Suraj Kumar Jha' , "Fullstack Software Engineer" , "Coding Instructor" , "Content Creator"]}
-        loop={false}
-        cursor
-        cursorStyle='|'
-        typeSpeed={70}
-        deleteSpeed={50}
-        delaySpeed={1000}
-      />
+                                    <Typewriter
+                                        words={['Hey👋 , I am Suraj Kumar Jha', "Fullstack Software Engineer", "Coding Instructor", "Content Creator"]}
+                                        loop={false}
+                                        cursor
+                                        cursorStyle='|'
+                                        typeSpeed={70}
+                                        deleteSpeed={50}
+                                        delaySpeed={1000}
+                                    />
                                 </h1>
                                 <p className="max-w-[600px] text-muted-foreground md:text-xl">
                                     Im a passionate full-stack developer with expertise in building modern, scalable, and user-friendly
